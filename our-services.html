@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>S. Olagoke Nigeria Enterprises</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Responsive stylesheet  -->
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+    #mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#26262c;
+  display:none;
+}  
+#boxes2 .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:1095px;
+  height:1050px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 5px;
+  text-align: center;
+}
+#boxes2 #dialog {
+  width:1095px; 
+  height:auto;
+  padding: 10px 10px 10px 10px;
+  background-color:#ffffff;
+  font-size: 15pt;
+}
+
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	color: red;
+}
+.button {
+    background-color: #971201; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button2 {
+    background-color: #005DC4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+</style>
+
+</head>
+
+<body>
+<!-- Main Header Start -->
+    <header class="main-navbar">
+        <div class="topbar-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 center767">
+                        <ul class="topbar-info">
+                            <li><p><i class="fa fa-envelope"></i> <a href="#">info@s.olagoke.com</a></p></li>
+                            <li><p><i class="fa fa-phone"></i> (+234) 817-856-0692</p></li>
+                        </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 center767">
+                    <div class="social-icon clearfix">
+                        <ul>
+                            <li><a href="our-services.html#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="our-services.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="our-services.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="our-services.html#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li><a href="our-services.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>        <!-- Header navbar start -->
+        <div class="header-navbar" id="navbar-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="indhtmlphp"><img src="sonelogot.png" alt="SONE LOGO">
+                                </a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown" data-animations="fadeIn">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">Home</a></li>
+                                    
+                                    <li class="dropdown">
+                                        <a href="our-services.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About US <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="about-us.html">The Studio</a></li>
+                                            <li><a href="our-team.html">Our Team</a></li>
+                                            <li><a href="our-approach.html">Our Approach</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                     <li><a href="our-services.html">Our Services</a></li>
+                                    
+                                    <li><a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>    </header>
+
+     <!-- Banner start -->
+    <div id="boxes2">
+<div style="top: -26.5px; left: 94px; display: none;" id="dialog" class="window"> 
+<div id="san">
+<a href="#" target="_blank"><img src="30kbanner2.png" width="900"></a>
+
+</div>
+<a href="#" target="_blank"><button class="button">Sign up</button></a>
+<a href="#" target="_blank"><button class="button2">Pay Now</button></a>
+</div>
+<div style="width: 1263px; font-size: 32pt; color: white; height: 1866px; opacity: 0.9; display: none;" id="mask"></div>
+</div>
+<script src="jquery.js."></script> 
+<script src="swc.js"></script>
+
+
+    <!-- About Start -->
+   <!-- Page Title bar -->
+    <section class="defult-page-title overlay-black">
+      <div class="container clearfix">
+          <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                  <div class="page-title-box center991">
+                      <div class="page-title-content">
+                        <h2>Our <span>Services</span></h2>
+                        <p><a href="index.html">Home</a> / <a href="our-services.html#">Services</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section> 
+
+    <!-- Service Start -->
+    <section class="service-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="section-title">
+                        <div class="title-style clearfix">
+                            <h2>What <span>We</span> Do</h2>
+                        </div>
+                        <p>We are a One-Stop Printshop that can handle all your print and advertising needs.</p>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+            <div class="service-col">
+              <div class="serviceBox">
+                <h3 class="title"> DIRECT IMAGE PRINTS</h3>
+                <div class="service-content">
+                    <p class="description">
+                     We are the first and the best with us WYSIWYG is not just an acronym its a reality
+                    </p>
+                    <i class="pe-7s-phone service-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+            <div class="service-col">
+              <div class="serviceBox">
+                <h3 class="title">CTP (Computer to Plate)</h3>
+                <div class="service-content">
+                    <p class="description">
+                      Both 5ft and 10ft machines
+                    </p>
+                    <i class="pe-7s-light service-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+            <div class="service-col">
+              <div class="serviceBox">
+                <h3 class="title"> OFFSET PRINTINGS</h3>
+                <div class="service-content">
+                    <p class="description">
+                       Our Kord machine is of high grade and registering capability is se
+                    </p>
+                    <i class="pe-7s-flag service-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         
+        </div>
+        
+        
+         <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+            <div class="service-col">
+              <div class="serviceBox">
+                <h3 class="title"> SOUVENIR PRINTING</h3>
+                <div class="service-content">
+                    <p class="description">
+                     We are the first and the best with us WYSIWYG is not just an acronym its a reality
+                    </p>
+                    <i class="pe-7s-phone service-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+            <div class="service-col">
+              <div class="serviceBox">
+                <h3 class="title">FINISHING</h3>
+                <div class="service-content">
+                    <p class="description">
+                     A good product is good when its perfectly finished we make all your print products come out the best.
+                    </p>
+                    <i class="pe-7s-light service-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+            <div class="service-col">
+              <div class="serviceBox">
+                <h3 class="title"> 24/7 Customer Support</h3>
+                <div class="service-content">
+                    <p class="description">
+                       Our Kord machine is of high grade and registering capability is se
+                    </p>
+                    <i class="pe-7s-flag service-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        </div>
+        
+        
+        
+        <div class="header-content">
+                        
+                        <a class="btn btn-default" href="our-services.html" role="button">Know more</a>
+                    </div>
+    </section> 
+   
+
+
+    <!-- Portfolio Start -->
+   
+
+    <!-- Blog Start -->
+    
+
+    <!-- Client Start -->
+   
+
+     <!-- Footer Start -->
+    
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-col about">
+                    <h3>About <span>S. Olagoke</span> Prints</h3>
+                    <p>S. Olagoke Prints is the place where design meets advertising. We creatively carve our designs with strong visual communications and powerful ingenious concepts to suit our clients’ purpose.</p>
+                    <ul>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            4, Balogun street, Mushin, Lagos Nigeria
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            info@s.olagoke.com.ng
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-col twitter">
+                  
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="footer-col links">
+                    <h3>Quick <span>Links</span></h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="our-services.html">What we do</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-col newsletter">
+                    <h3>Join our <span>Mailing List</span></h3>
+                    <p>Signup today for free and receive regular updates about our company</p>
+                    <form class="input-group">
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="Enter Your Email">
+                        </div>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default sub-btn" type="submit">
+                            SUBSCRIBE</button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Copyright Start -->
+<section class="footer-copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>Designed by Asix_Graphics_Tech &copy; 2020. 
+                    <a href="index.html">S. OLAGOKE NIGERIA ENTERPRISES</a> All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- jQuery -->
+   <script src="jquery.min.js"></script>
+
+   <!-- Bootstrap Min js -->
+   <script src="bootstrap.min.js"></script>
+   <!-- bootstrap-dropdownhover js -->
+   <script src="bootstrap-dropdownhover.min.js"></script>
+   <!-- imagesloaded JS -->
+   <script src="imagesloaded.min.js"></script>
+   <!-- filterizr JS -->
+   <script src="jquery.filterizr.min.js"></script>
+   <!-- typing js -->
+   <script src="typing.js"></script>
+   <!-- VideoPopUp -->
+   <script src="VideoPopUp.jquery.js"></script>
+   <!-- counterup -->
+   <script src="jquery.counterup.min.js"></script>
+   <!-- waypoints -->
+   <script src="jquery.waypoints.min.js"></script>
+   <!-- carousel -->
+   <script src="owl.carousel.min.js"></script>
+   <!-- jarallax -->
+   <script src="jarallax.min.js"></script>
+   <!-- lightbox -->
+   <script src="lightbox.min.js"></script>
+   <!-- youtubebackground JS -->
+   <script src="jquery.youtubebackground.js"></script>
+   <!-- jquery scrollUp  JS -->
+   <script src="jquery.scrollUp.min.js"></script>
+   <!-- wow.min JS -->
+   <script src="wow.min.js"></script>
+   <!-- Main Custom JS -->
+   <script src="custom.js"></script>
+
+
+
+
+
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"></a>
+<style type="text/css">
+.typewrite > .wrap { border-right: 0.08em solid #fff}
+</style>
+</body>
+</html>
